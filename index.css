@@ -1,0 +1,122 @@
+body {
+    background-image: url("joker.jpg");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+h2 {
+    font-size: 50px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+li {
+    list-style-type: disc;
+    color: #f0f0f0;
+    background: rgb(1, 78, 7);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#jokeButton {
+    background: rgb(34, 135, 0);
+transition: background 0.3s ease;
+}
+
+#jokeButton:hover {
+background: rgb(28, 110, 0);
+}
+
+#jokeButton:active {
+background: rgb(23, 92, 0);
+}
+
+#jokeSaveButton {
+    background: rgb(255, 0, 0);
+    transition: background 0.3s ease;
+}
+
+#jokeSaveButton:hover {
+    background: rgb(200, 0, 0);
+}
+
+#jokeSaveButton:active {
+    background: rgb(150, 0, 0);
+}
+#joke {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#joke-box {
+    background: rgba(66, 105, 64, 0.7);
+    border: 2px solid rgb(61, 0, 125);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#jokeClearButton {
+    background: rgb(0, 0, 255);
+    transition: background 0.3s ease;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#jokeClearButton:hover {
+    background: rgb(0, 0, 200);
+}
+
+#jokeClearButton:active {
+    background: rgb(0, 0, 150);
+}
+#jokeList {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+#jokeList li {
+    background: rgb(136, 0, 255);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 18px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
