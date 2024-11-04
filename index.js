@@ -49,6 +49,9 @@ document.getElementById("jokeSaveButton").addEventListener("click", function() {
 document.getElementById("jokeClearButton").addEventListener("click", function() {
     jokesList = []
     displayJokes()
+    count = 0
+    document.getElementById("counter").innerText = count
+    document.getElementById("joke").innerText = ""
 })
 
 function displayJokes() {
